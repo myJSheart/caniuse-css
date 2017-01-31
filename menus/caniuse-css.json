@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle caniuse-css",
+        "command": "caniuse-css:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "caniuse-css",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "caniuse-css:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
