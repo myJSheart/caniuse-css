@@ -3,6 +3,36 @@
 // See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
 // for a full listing of what's available.
 @import "ui-variables";
+// @import '../Semantic-UI-LESS/definitions/elements/icon';
 
+
+@support-color: #A7E8BD;
+@not-support-color:  #EFA7A7;
+@not-found-color: yellow;
+
+.common {
+  margin-left: 2px;
+  margin-right: 2px;
+  border: solid 2px #D8D8D8;
+  border-radius: 30%;
+  float: left;
+  display: inline-block;
+  color: black;
+}
 .caniuse-css {
+  display: inline-block;
+  .support {
+    background-color: @support-color;
+    .common;
+  }
+
+  .not-support {
+    background-color: @not-support-color;
+    .common;
+  }
+
+  .not-found {
+    background-color: @not-found-color;
+    .common;
+  }
 }
