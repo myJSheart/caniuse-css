@@ -7,32 +7,35 @@
 
 
 @support-color: #A7E8BD;
-@not-support-color:  #EFA7A7;
+@not-support-color:  red;
 @not-found-color: yellow;
 
 .common {
   margin-left: 2px;
   margin-right: 2px;
-  border: solid 2px #D8D8D8;
-  border-radius: 30%;
   float: left;
   display: inline-block;
-  color: black;
 }
+
 .caniuse-css {
   display: inline-block;
   .support {
-    background-color: @support-color;
+    color: @support-color;
     .common;
   }
 
   .not-support {
-    background-color: @not-support-color;
+    color: @not-support-color;
     .common;
   }
 
   .not-found {
-    background-color: @not-found-color;
+    color: @not-found-color;
     .common;
+  }
+
+  .attribute {
+    color: green;
+    .common
   }
 }

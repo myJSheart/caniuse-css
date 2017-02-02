@@ -1,13 +1,19 @@
 {
   "name": "caniuse-css",
   "main": "./lib/caniuse-css",
-  "version": "0.0.0",
-  "description": "A short description of your package",
+  "version": "0.0.1",
+  "description": "Detect the compatibility of a CSS attribute as you type",
   "keywords": [],
   "activationCommands": {
     "atom-workspace": "caniuse-css:toggle"
   },
-  "repository": "https://github.com/atom/caniuse-css",
+  "repository": {
+    "type": "git",
+    "url":"https://github.com/myJSheart/caniuse-css"
+  },
+  "bugs": {
+    "url": "https://github.com/myJSheart/caniuse-css/issues"
+  },
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
