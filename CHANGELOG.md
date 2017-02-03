@@ -1,3 +1,7 @@
-## 0.1.0 - First Release
-* Every feature added
-* Every bug fixed
+## 1.1.3
+
+Remove ```atom-message-panel```
+
+Bugs:
+
+* Cannot toggle via __Shell Commands__ or __hot key__
