@@ -1,64 +1,24 @@
 {
-  "_args": [
-    [
-      {
-        "raw": "/private/var/folders/kc/lky9rppx225dn2dyxwqq04hr0000gn/T/d-11713-3322-11b4hre/package.tgz",
-        "scope": null,
-        "escapedName": null,
-        "name": null,
-        "rawSpec": "/private/var/folders/kc/lky9rppx225dn2dyxwqq04hr0000gn/T/d-11713-3322-11b4hre/package.tgz",
-        "spec": "/private/var/folders/kc/lky9rppx225dn2dyxwqq04hr0000gn/T/d-11713-3322-11b4hre/package.tgz",
-        "type": "local"
-      },
-      "/private/var/folders/kc/lky9rppx225dn2dyxwqq04hr0000gn/T/apm-install-dir-11713-3322-722ho9"
-    ]
-  ],
-  "_from": "../d-11713-3322-11b4hre/package.tgz",
-  "_id": "caniuse-css@1.1.0",
-  "_inCache": true,
-  "_installable": true,
-  "_location": "/caniuse-css",
-  "_phantomChildren": {},
-  "_requested": {
-    "raw": "/private/var/folders/kc/lky9rppx225dn2dyxwqq04hr0000gn/T/d-11713-3322-11b4hre/package.tgz",
-    "scope": null,
-    "escapedName": null,
-    "name": null,
-    "rawSpec": "/private/var/folders/kc/lky9rppx225dn2dyxwqq04hr0000gn/T/d-11713-3322-11b4hre/package.tgz",
-    "spec": "/private/var/folders/kc/lky9rppx225dn2dyxwqq04hr0000gn/T/d-11713-3322-11b4hre/package.tgz",
-    "type": "local"
-  },
-  "_requiredBy": [
-    "#USER"
-  ],
-  "_resolved": "file:../d-11713-3322-11b4hre/package.tgz",
-  "_shasum": "659d7504793a704c18043a04c7a46f015725ff01",
-  "_shrinkwrap": null,
-  "_spec": "/private/var/folders/kc/lky9rppx225dn2dyxwqq04hr0000gn/T/d-11713-3322-11b4hre/package.tgz",
-  "_where": "/private/var/folders/kc/lky9rppx225dn2dyxwqq04hr0000gn/T/apm-install-dir-11713-3322-722ho9",
+  "name": "caniuse-css",
+  "main": "./lib/caniuse-css",
+  "version": "0.0.0",
+  "description": "Detect the compatibility of a CSS attribute as you type",
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "caniuse-css:toggle"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/myJSheart/caniuse-css.git"
   },
   "bugs": {
     "url": "https://github.com/myJSheart/caniuse-css/issues"
   },
-  "dependencies": {},
-  "description": "Detect the compatibility of a CSS attribute as you type",
-  "devDependencies": {},
+  "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "homepage": "https://github.com/myJSheart/caniuse-css#readme",
-  "keywords": [],
-  "license": "MIT",
-  "main": "./lib/caniuse-css",
-  "name": "caniuse-css",
-  "optionalDependencies": {},
-  "readme": "# caniuse-css package\n\nFind out the compatibility of a css attribute in different explorers.\n\n## Installation\n\n```\napm install caniuse-css\n```\n\nSearch ```caniuse-css``` and Click Install.\n\n## How to use\n\nWhenever the cursor changes position, this package will split the line with ```:``` and get the first string as a CSS attribute.\n\n![](https://media.giphy.com/media/l3q2tMeHsbp26Tjzi/giphy.gif)\n\n## Thanks\n[caniuse.com](http://caniuse.com/)\n[caniuse-api](https://github.com/Nyalab/caniuse-api)\n\n## TODO\n\n- Improve Appearance\n\n- Allow users to set explorers and its version that display\n\n- Add more toggle ways: Selection Detected\n\n- Use [Original Data](https://github.com/Fyrd/caniuse/blob/master/data.json) to rewrite compatibility detect part.\n\n## License\n\n[MIT](https://opensource.org/licenses/MIT)\n",
-  "readmeFilename": "README.md",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/myJSheart/caniuse-css.git"
-  },
-  "version": "1.1.2"
+  "dependencies": {
+    "caniuse-api": "^1.5.3"
+  }
 }
