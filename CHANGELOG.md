@@ -5,3 +5,7 @@ Remove ```atom-message-panel```
 Bugs:
 
 * Cannot toggle via __Shell Commands__ or __hot key__
+
+## 1.1.4
+
+Offer tips for users when typing

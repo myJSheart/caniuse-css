@@ -19,6 +19,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "caniuse-api": "^1.5.3"
+    "caniuse-api": "^1.5.3",
+    "fuzzyset.js": "^0.0.1"
   }
 }
