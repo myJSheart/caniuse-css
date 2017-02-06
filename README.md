@@ -23,9 +23,6 @@ If the CSS attribute does not exists in the database, tips will be given.
 [caniuse-api](https://github.com/Nyalab/caniuse-api)
 [fuzzyset.js](https://glench.github.io/fuzzyset.js/)
 
-## Bugs
-
-* Toggle twice before activating
 
 ## TODO
 
