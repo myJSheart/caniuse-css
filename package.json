@@ -1,7 +1,7 @@
 {
   "name": "caniuse-css",
   "main": "./lib/caniuse-css",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "Detect the compatibility of a CSS attribute as you type",
   "keywords": [],
   "activationCommands": {
