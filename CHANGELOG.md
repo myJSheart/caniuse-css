@@ -9,3 +9,7 @@ Bugs:
 ## 1.1.4
 
 Offer tips for users when typing
+
+## 1.1.5
+
+Improve approximate string match.
